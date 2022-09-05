@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.weba{
+    background-color:#eee;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 400px 800px 100px;
+    grid-template-areas: 
+    "nav nav nav nav nav nav nav nav nav nav  "
+    "cont cont cont cont cont cont cont cont cont cont "
+    "end end end end end end end end end end ";
+}
+nav{
+    grid-area:nav ;
+    /* background-color: rgb(232 230 232); */
+    background-image:url(../andrea.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    box-shadow: 0px 2px 10px black;
+
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-flex;
+    padding: 10px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qaz{
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    margin-top: 40px;
+}
+.wsx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    margin-top: 11px;
+}
+.edc{
+    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.three{
+    border: 2px solid black;
+    margin-right: 15px;
+    padding: 5px;
+}
+.fure{
+    border: 2px solid  rgb(2, 182, 2);;
+    padding: 5px;
+}
+section{
+    grid-area:  cont;
+    background-color: white;
+}
+ .five{
+    
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.six{
+    
+    height: 2px;
+    width: 50px;
+    margin-left: 49%;
+    margin-top: 20px;
+    background-color: rgb(2, 182, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.eigth{
+    width: 500px;
+    margin-top: 20px;
+}
+.sevsn{
+   text-align: center; 
+   color:  rgb(2, 182, 2);
+}
+.nine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nine div{
+    margin: 50px 130px;
+}
+ .lmj{
+    background-image: url(../pexels-gary-barnes-6231785.jpg);
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+   
+}
+.hgf{
+    background-image: url(../pexels-gary-barnes-6231905.jpg);
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.vbc{
+    background-image: url(../pexels-karolina-grabowska-4622893.jpg);
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.hgf:hover{
+    opacity: .7;
+    transition: .3s;
+}
+.lmj:hover{
+    opacity: .7;
+    transition: .3s;
+}
+.vbc:hover{
+    opacity: .7;
+    transition: .3s;
+}
+
+.mko{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: ltr;
+
+}
+
+.zero{
+    margin-left: 44px;
+} 
+ .back{
+    margin-left: 71px;
+}
+.hnb{
+    margin-left: 47px;
+}
+.ert{
+    margin-left: 76px;
+}
+.poi{
+    margin-left: 76px;
+}  
+.mg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 300px;
+    position: relative;
+}
+ .A{
+    width: 200px;
+    height: 200px;
+    transform: translate3d(-145px,84px,-28px);
+    
+}
+.B{
+    width: 200px;
+    height: 200px;
+    transform: translate3d(-185px,73px,7px);
+}
+.C{
+    transform: translate3d(-245px, 65px, 42px);
+    width: 200px;
+    height: 200px;
+}
+.D{  
+    z-index: 10;
+    width: 200px;
+    height: 200px;
+    transform: translate3d(-320px, 61px, 66px);
+}
+.E{
+    width: 200px;
+    height: 200px;
+    transform: translate3d(127px, 66px, 39px);
+    position: absolute;
+    z-index: 7;
+}
+.F{
+    transform: translate3d(258px,73px,7px);
+    width: 200px;
+    height: 197px;
+    position: absolute;
+    z-index: 6
+}
+.G{
+    transform: translate3d(426px,84px,-28px);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+
+}
+.oij{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oij a{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.oij div{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.impety{
+    width: 2px;
+    height: 66px;
+    background-color: black;
+}
+footer{ grid-area:end;
+    background-color: rgb(115, 116, 115);} 
