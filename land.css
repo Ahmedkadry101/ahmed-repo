@@ -17,7 +17,7 @@
 nav{
     grid-area:nav ;
     /* background-color: rgb(232 230 232); */
-    background-image:url(../andrea.jpg);
+    background-image:url(../img/andrea.jpg);
     background-size: 100% 100%;
     position: relative;
     box-shadow: 0px 2px 10px black;
@@ -121,7 +121,7 @@ section{
     margin: 50px 130px;
 }
  .lmj{
-    background-image: url(../pexels-gary-barnes-6231785.jpg);
+    background-image: url(../img/pexels-gary-barnes-6231785.jpg);
     background-size: 100px;
     width: 100px;
     height: 100px;
@@ -130,14 +130,15 @@ section{
    
 }
 .hgf{
-    background-image: url(../pexels-gary-barnes-6231905.jpg);
+    background-image: url(../img/pexels-gary-barnes-6231905.jpg);
     background-size: 100px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+  
 }
 .vbc{
-    background-image: url(../pexels-karolina-grabowska-4622893.jpg);
+    background-image: url(../img/pexels-karolina-grabowska-4622893.jpg);
     background-size: 100px;
     width: 100px;
     height: 100px;
